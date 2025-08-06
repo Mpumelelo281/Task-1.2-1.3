@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+#Solution {
+  border-radius: 25px 25px 25px;
+  box-shadow: 0 0 10px;
+  width: 25%;
+  background-color: cornflowerblue;
+  padding: 1%;
+}
+#content-section {
+  background-image: url(image/Sbonelo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  color: white;
+}
+
+h1 {
+  background-color: cornflowerblue;
+  width: 100%;
+  padding: 2%;
+  text-align: center;
+}
+#content-section p {
+  margin-left: 20%;
+}
+
+footer {
+  background-color: cornflowerblue;
+  width: 100%;
+  padding: 2%;
+}
